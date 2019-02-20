@@ -1,0 +1,2 @@
+ring time1[]=time.split(":");
+			 int hour=Intege

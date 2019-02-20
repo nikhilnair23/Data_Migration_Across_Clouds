@@ -1,0 +1,2 @@
+	list.add(rs.getString(24));
+			list.add(rs.getSt

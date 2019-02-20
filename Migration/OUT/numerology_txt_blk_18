@@ -1,0 +1,4 @@
+ln("--------"+assign);
+	sum=sum+assign;
+	  
+}

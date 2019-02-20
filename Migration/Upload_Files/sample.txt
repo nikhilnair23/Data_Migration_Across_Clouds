@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function show() 
+{
+    if(document.getElementById('benefits').style.display=='none') 
+    {
+      document.getElementById('benefits').style.display='block';
+    }
+}
+</script>
+
+
+
+</head>
+<body background="<%=request.getContextPath() %>/WIPRO.jpg" style="height: 90%;width: 90%">
+
+
+<form name="myform" id="myform">
+
+<div style="top:500px;">
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+</div>
+
+ <div id="opener"><a href="#1" name="1" onclick=show()>OK</a></div>
+<div  id="benefits" style="display:none;position:relative;">
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">
+<br>
+CompanyName:<input type="text" name="cmpname" id="cmpname">   
+</div>
+</form>
+</body>
+</html>

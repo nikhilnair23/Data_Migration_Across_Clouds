@@ -1,0 +1,5 @@
+HAAR -open CV
+GLCM
+Gray level Texture co occurence matrix
+Hisogram comparision
+Average RGB

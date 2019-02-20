@@ -1,0 +1,3 @@
+ay = str.toCharArray();
+
+for(char temp:  strInCh

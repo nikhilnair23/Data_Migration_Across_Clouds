@@ -1,0 +1,4 @@
+lose();
+	c1.setAutoCommit(true);
+	
+	dbConnectio

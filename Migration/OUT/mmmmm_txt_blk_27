@@ -1,0 +1,2 @@
+ist.add(rs.getString(13));
+			list.add(rs.getStri

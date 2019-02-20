@@ -1,0 +1,2 @@
+	 int sec=Integer.parseInt(time2[2]);
+			  second

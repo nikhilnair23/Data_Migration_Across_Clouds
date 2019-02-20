@@ -1,0 +1,3 @@
+~"+rs.getString(27));
+			
+			map.put(i, list);

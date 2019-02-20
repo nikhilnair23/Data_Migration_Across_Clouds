@@ -1,0 +1,1 @@
+),foreign key(user_id) references m_user(m_id));

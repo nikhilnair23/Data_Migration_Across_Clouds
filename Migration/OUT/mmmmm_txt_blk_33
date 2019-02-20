@@ -1,0 +1,3 @@
+etString(22));
+			list.add(rs.getString(23));
+		

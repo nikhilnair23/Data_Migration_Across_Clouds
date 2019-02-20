@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Test
+{
+
+	
+	public static void main(String[] args)
+	{
+		ArrayList<String> list =new ArrayList<String>();
+		list.add("0 1 2 3 4 5 6 7 8 9 10 9 8 7 6 5 4 3 2 1");
+		
+		for(int i=1;i<=20;i++)
+		{
+			System.out.println(list.get(0));
+		
+		}
+		
+
+	}
+
+}Hello

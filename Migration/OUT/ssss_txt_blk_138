@@ -1,0 +1,3 @@
+s1=hour*3600+min*60+sec;
+			 
+			 System.out.pri

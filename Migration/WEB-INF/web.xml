@@ -1,0 +1,146 @@
+<web-app>
+
+    <display-name>Cloud_SecurityPrivacy</display-name>
+
+    <!-- Admin Servlet Classes-->
+
+	
+	
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangePass1</servlet-name>
+		<servlet-class>com.user.ChangePass1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass1</servlet-name>
+		<url-pattern>/ChangePass1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Pass</servlet-name>
+		<servlet-class>com.user.Pass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pass</servlet-name>
+		<url-pattern>/Pass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.user.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>EditUser</servlet-name>
+		<servlet-class>com.admin.EditUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditUser</servlet-name>
+		<url-pattern>/EditUser</url-pattern>
+	</servlet-mapping>
+	
+	 <!-- User Servlet Classes-->
+	
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewUser</servlet-name>
+		<servlet-class>com.user.NewUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUser</servlet-name>
+		<url-pattern>/NewUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadFile</servlet-name>
+		<servlet-class>com.user.UploadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFile</servlet-name>
+		<url-pattern>/UploadFile</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>ManualMigrate</servlet-name>
+		<servlet-class>com.user.ManualMigrate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManualMigrate</servlet-name>
+		<url-pattern>/ManualMigrate</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>FTPUpload</servlet-name>
+		<servlet-class>com.user.FTPUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FTPUpload</servlet-name>
+		<url-pattern>/FTPUpload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Storage</servlet-name>
+		<servlet-class>com.user.Storage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Storage</servlet-name>
+		<url-pattern>/Storage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>com.user.Download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/Download</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Decrypt</servlet-name>
+		<servlet-class>com.user.Decrypt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Decrypt</servlet-name>
+		<url-pattern>/Decrypt</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	
+	
+	
+	
+</web-app>

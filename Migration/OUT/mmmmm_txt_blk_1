@@ -1,0 +1,4 @@
+ getMemberManu(String Id) {
+
+
+java.sql.Prepared

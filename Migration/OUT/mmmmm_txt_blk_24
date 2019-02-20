@@ -1,0 +1,2 @@
+rs.getString(8));
+			list.add(rs.getString(9));

@@ -1,0 +1,3 @@
+
+			list.add(rs.getString(21));
+			list.add(rs.g
